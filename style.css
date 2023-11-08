@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/** -------------- Header -------------------- */
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 5vw;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav ul {
+    display: flex;
+    height: 100%;
+   align-items: center;
+    
+}
+.menu-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 1.2rem;
+}
+
+.left-nav ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.menu-item li sup {
+    color: orange;
+}
+
+.menu-item:hover {
+    border-bottom: 4px solid green;
+    cursor: pointer;
+}
+
+.left-nav .logo{
+    width: 53px;
+    height: 36px;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.right-nav .search-bar {
+    background-color: #F5F5F6;
+    padding: 0 5px;
+}
+
+.right-nav .search-bar input {
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.action-menu {
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+.menu i {
+   font-size: 20px;
+}
+
+.menu span {
+    margin-top: 0.3rem;
+}
+
+/** ------------------- Main Section------------- */
+
+main {
+    background-color: #FDFDFD;
+    max-width: 95vw;
+    margin: 0 auto;
+}
