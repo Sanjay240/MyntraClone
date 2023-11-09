@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -14,6 +15,7 @@ navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
     height: 80px;
     padding: 0 5vw;
     background-color: white;
@@ -99,6 +101,143 @@ navbar {
 
 main {
     background-color: #FDFDFD;
-    max-width: 95vw;
+    width: 100vw;
     margin: 0 auto;
+}
+
+.promo {
+    width: 95vw;
+    margin: 1rem auto;
+}
+.promo img {
+    width: 100%;
+}
+
+.feature-img {
+    width: 92vw;
+    margin: 0.2rem auto;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.sponser {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.sponser img {
+    width: 100%;
+}
+
+.coupons {
+    display: flex;
+    width: 98vw;
+    margin: 0.5rem auto;
+}
+.coupons img {
+    width: 50%;
+}
+
+.festival-offers-items {
+    width: 100vw;
+    margin: 0.2 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.festival-offers-items img {
+    width: 16.2vw;
+}
+
+.category-special {
+    padding-top: .5rem;
+}
+
+.categories-cards {
+    width: 100vw;
+    margin: 0.5rem auto;
+}
+
+.large-categories-cards {
+    width: 100vw;
+    display: flex;
+}
+
+/** --------------- Footer style ---------------------------*/
+
+footer {
+    background: #fafbfc;
+    width: 100vw;
+    margin-top: 2rem;
+    padding: 3rem;
+    display: flex;
+    
+    
+}
+.column_1 {
+    flex: 1 15vw;
+}
+
+.column_2 {
+    flex: 1 15vw;
+}
+
+.column_3 {
+    flex: 2 20vw;
+}
+
+.column_4 {
+    flex: 3 40vw;
+}
+
+
+.items h4 {
+    text-transform: uppercase;
+    color: #282c3f;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.items ul {
+    width: 100%;
+}
+
+.items ul li {
+    list-style: none;
+    color: #696b79;
+    font-size: 0.9rem;
+    padding: 14px 0px 5px;
+}
+
+.item_2 {
+    margin-top: 1.5rem;
+}
+
+.column_3 .items .mobile-logos {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.column_3 .items .mobile-logos img {
+    width: 40%;
+    padding: 0.5rem;
+}
+
+.social-links i {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.3rem;
+}
+
+.comment-1, .comment-2 {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.column_4 img {
+    width: 5vw;
+    margin-right: 0.5rem;
 }
